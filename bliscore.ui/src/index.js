@@ -7,9 +7,9 @@ import App from './components/app';
 import reducers from './reducers';
 import './styles/animate.min.css';
 import './styles/main.css';
-/*import './styles/main.scss';
+import './styles/main.scss';
 import './styles/responsive.scss';
-import './styles/style.scss';*/
+import './styles/style.scss';
 
 const createStoreWithMiddleware = applyMiddleware()(createStore);
 
