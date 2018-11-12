@@ -4,13 +4,15 @@ import ContactUs from './ContactUs';
 import Main from './Main';
 import OurTeam from './OurTeam';
 import Footer from './Footer';
+import Services from './Services';
 
 export default class App extends Component {
   render() {
     return (
-      <div className="row">
+      <div>
         <Header></Header>
         <Main></Main>
+        <Services></Services>
         <OurTeam></OurTeam>
         <ContactUs></ContactUs>
         <Footer></Footer>

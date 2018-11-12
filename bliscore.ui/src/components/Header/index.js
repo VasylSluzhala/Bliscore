@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import Logo from '../../images/Logo200-min.png';
+
 export default class Header extends Component {
   render() {
     return (
@@ -12,7 +14,7 @@ export default class Header extends Component {
                  <span className="icon-bar mid"></span>
                  <span className="icon-bar btm"></span>
               </button>
-              <a href="#hero" className="site-logo navbar-brand"><img src="images/logo-light.png" alt="" className="img-responsive"/></a>
+              <a href="#hero" className="site-logo navbar-brand"><img src={Logo} alt="" className="img-responsive"/></a>
            </div>
            <div id="navbarCollapse" className="collapse navbar-collapse ">
               <ul className="nav navbar-nav navbar-right " id="nav_bar">
