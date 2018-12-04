@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Mail from '../../images/mail.svg';
-import Location from '../../../images/location.svg';
-import Phone from '../../../images/phone.svg';
+import Mail from './img/mail.svg';
+import Location from './img/location.svg';
+import Phone from './img/phone.svg';
 
 class ContactUs extends Component {
   render() {

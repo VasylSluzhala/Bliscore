@@ -2,13 +2,14 @@ import React, { Component } from 'react';
 import { applyMiddleware, createStore } from 'redux';
 import { Provider } from 'react-redux';
 import ReduxPromise from 'redux-promise';
-import Header from './Header';
-import ContactUs from './ContactUs';
-import Main from './Main';
-import OurTeam from './OurTeam';
-import Footer from './Footer';
-import Services from './Services';
-import reducers from '../reducers';
+
+import Header from '../Header';
+import ContactUs from '../ContactUs';
+import Title from '../Title';
+import OurTeam from '../OurTeam';
+import Footer from '../Footer';
+import Services from '../Services';
+import reducers from './reducers';
 
 const createStoreWithMiddleware = applyMiddleware(ReduxPromise)(createStore);
 
@@ -18,7 +19,7 @@ export default class App extends Component {
       <Provider store={createStoreWithMiddleware(reducers)}>
         <div>
           <Header></Header>
-          <Main></Main>
+          <Title></Title>
           <Services></Services>
           <OurTeam></OurTeam>
           <ContactUs></ContactUs>
