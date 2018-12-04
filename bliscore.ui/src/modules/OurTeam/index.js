@@ -1,4 +1,4 @@
 import * as components from './components';
 
-export default components.OurTeam.OurTeam
+export default components.OurTeam.default
 export { components }

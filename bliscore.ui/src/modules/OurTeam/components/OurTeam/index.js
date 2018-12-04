@@ -1,6 +1,15 @@
 import React, { Component } from 'react';
+import { bindActionCreators } from 'redux';
+import { connect } from 'react-redux';
+
+import { getTeam } from '../../actions';
 
 class OurTeam extends Component {
+  constructor(props){
+    super(props);
+    this.props.getTeam();
+  }
+
   render() {
     return (
       <section className="burger team dark-template-light-bg" id="team">
@@ -34,4 +43,12 @@ class OurTeam extends Component {
   }
 }
 
-export { OurTeam }
+function mapDispatchToProps(dispatch){
+  return bindActionCreators({getTeam}, dispatch);
+}
+
+function mapStateToProps(state){
+  return { team: state.team }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(OurTeam)

@@ -1,7 +1,9 @@
 import { combineReducers } from 'redux';
 
+import TeamReducer from '../OurTeam/reducer';
+
 const reducers = combineReducers({
-  state: (state = {}) => state
+  team: TeamReducer
 });
 
 export default reducers;
