@@ -8,12 +8,4 @@ export function getTeam(){
         type: GET_TEAM,
         payload: request
     };
-    // firebase.firestore().collection('team').get()
-    //       .then(function(snapshot){    
-    //           debugger;   
-    //           {
-    //             type: GET_TEAM,
-    //             payload: snapshot.val()
-    //         };
-    //       });
-        }
+}

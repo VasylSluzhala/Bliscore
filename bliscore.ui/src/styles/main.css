@@ -906,6 +906,10 @@ button.open-video-modal {
 @media only screen and (max-width: 990px) {
   .our-team {
     margin-bottom: 30px; } }
+
+    @media only screen and (min-width: 990px) {
+      .our-team {
+        margin-bottom: 30px; } }
 /*-------- Team CSS End ---------*/
 /*---------------------------- 7.Roadmap -----------------------*/
 .roadmap {

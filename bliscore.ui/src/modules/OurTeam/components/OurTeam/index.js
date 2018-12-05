@@ -1,13 +1,21 @@
 import React, { Component } from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
+import _ from 'lodash';
 
 import { getTeam } from '../../actions';
+import { Item } from '../Item';
 
 class OurTeam extends Component {
   constructor(props){
     super(props);
     this.props.getTeam();
+  }
+
+  renderTeam(){
+    return _.map(this.props.team, function(person){
+      return <Item Name={person.Name} Post={person.Post} Url={person.Url}></Item>
+    })
   }
 
   render() {
@@ -20,20 +28,7 @@ class OurTeam extends Component {
             </div>
             <div className="col-lg-9">
               <div className="row">
-                <div className="col-md-3 col-sm-4 col-xs-6 wow fadeInUp" data-wow-delay=".2s" data-wow-duration=".4s">
-                  <div className="our-team">
-                    <img src="images/team-1.jpg" alt="team image" />
-                      <div className="team-content">
-                      <h3 className="title">Kim</h3>
-                      <span className="post">Founder</span>
-                      <ul className="icon">
-                        <li><a href="javascript:void(0);"><i className="fab fa-facebook-f"></i></a></li>
-                        <li><a href="javascript:void(0);"><i className="fab fa-twitter"></i></a></li>
-                        <li><a href="javascript:void(0);"><i className="fab fa-linkedin-in"></i></a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
+                {this.renderTeam()}
               </div>
             </div>
           </div>
