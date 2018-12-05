@@ -13,8 +13,10 @@ class OurTeam extends Component {
   }
 
   renderTeam(){
+    let counter = -1;
     return _.map(this.props.team, function(person){
-      return <Item Name={person.Name} Post={person.Post} Url={person.Url}></Item>
+      counter++;
+      return <Item key={counter} Index={counter} Name={person.Name} Post={person.Post} Url={person.Url}></Item>
     })
   }
 

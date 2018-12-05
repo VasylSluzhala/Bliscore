@@ -590,7 +590,8 @@ div.timer {
   background-image: url("");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 50% 50%; }
+  background-position: 50% 50%; 
+}
 
 /*---------- timer CSS end ------------*/
 /*---------- Banner-CSS end ------------*/

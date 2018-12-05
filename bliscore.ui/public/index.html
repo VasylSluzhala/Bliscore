@@ -12,11 +12,23 @@
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="82">
+    <div class="site-loader wow fadeOut" data-wow-duration=".6s" data-wow-delay=".1s">
+        <div class="loader-dots">
+           <div class="circle circle-1"></div>
+           <div class="circle circle-2"></div>
+        </div>
+     </div>
   <div id="root"></div>
 
-  <script src="js/jquery3.2.1.min.js"></script>
-  <script src="js/main.js"></script>
   <script src="js/wow.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function(){    
+    new WOW().init();
+    setTimeout(function() {
+        document.getElementsByClassName('site-loader')[0].style.display = 'none';
+    }, 600);
+  });
+    </script>
 </body>
 
 </html>

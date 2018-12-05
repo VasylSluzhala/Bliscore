@@ -1,8 +1,9 @@
 import React from 'react';
 
 export function Item(props) {
+    const delay = 0.1*props.Index + 0.2;
     return (
-        <div className="col-md-3 col-sm-4 col-xs-6 wow fadeInUp" data-wow-delay=".2s" data-wow-duration=".4s">
+        <div className="col-md-3 col-sm-4 col-xs-6 wow fadeInUp" data-wow-delay={delay + 's'} data-wow-duration=".4s">
             <div className="our-team">
                 <img src={props.Url} alt="team image" />
                 <div className="team-content">

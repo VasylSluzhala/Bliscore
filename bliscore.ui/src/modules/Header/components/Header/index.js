@@ -1,11 +1,35 @@
 import React, { Component } from 'react';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 import Logo from './img/Logo200-min.png';
 
 class Header extends Component {
+
+  isTop = true;
+
+  componentDidMount(){
+    window.addEventListener('scroll', this.handleScroll);
+  }
+
+  componentWillUnmount(){
+    window.removeEventListener('scroll', this.handleScroll);
+  }
+
+  handleScroll = () => {
+    if(window.scrollY > 0){
+      if(this.isTop){
+      this.refs.navbar.setAttribute("class", "navbar wow fadeInDown sticky-header");
+      this.isTop = false;
+    }
+    } else {
+      this.refs.navbar.setAttribute("class", "navbar wow fadeInDown");
+      this.isTop = true;
+    }
+  }
+
   render() {
     return (
-     <nav className="navbar wow fadeInDown" data-wow-delay=".2s" data-wow-duration="1s" id="myNavbar">
+     <nav className="navbar wow fadeInDown" data-wow-delay=".2s" data-wow-duration="1s" id="navbar" ref="navbar">
         <div className="container">
            <div className="navbar-header ">
               <button data-target="#navbarCollapse" data-toggle="collapse" className="navbar-toggle collapsed" type="button">
@@ -18,12 +42,12 @@ class Header extends Component {
            </div>
            <div id="navbarCollapse" className="collapse navbar-collapse ">
               <ul className="nav navbar-nav navbar-right " id="nav_bar">
-                 <li><a href="#about">About Cryptency</a></li>
-                 <li><a href="#buy-token">Token</a></li>
-                 <li><a href="#service">Services</a></li>
-                 <li><a href="#roadmap">roadmap</a></li>
-                 <li><a href="#faq-section">Faq</a></li>
-                 <li><a href="#contact">Contact</a></li>
+                 <li><AnchorLink href="#about">About Cryptency</AnchorLink></li>
+                 <li><AnchorLink href="#team">Team</AnchorLink></li>
+                 <li><AnchorLink href="#service">Services</AnchorLink></li>
+                 <li><AnchorLink href="#roadmap">roadmap</AnchorLink></li>
+                 <li><AnchorLink href="#faq-section">Faq</AnchorLink></li>
+                 <li><AnchorLink href="#contact">Contact</AnchorLink></li>
                  <li className="sidebar-btn"><a href="#white-paper" className="menu-btn">White Paper</a></li>
               </ul>
            </div>

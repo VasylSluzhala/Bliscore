@@ -11,6 +11,7 @@ import Title from '../Title';
 import OurTeam from '../OurTeam';
 import Footer from '../Footer';
 import Services from '../Services';
+import About from '../About';
 import reducers from './reducers';
 
 const firebaseConfig = {
@@ -27,6 +28,7 @@ firebase.initializeApp(firebaseConfig);
 const createStoreWithMiddleware = applyMiddleware(ReduxPromise)(createStore);
 
 export default class App extends Component {
+
   render() {
     return (
       <Provider store={createStoreWithMiddleware(reducers)}>
@@ -35,6 +37,7 @@ export default class App extends Component {
           <Title></Title>
           <Services></Services>
           <OurTeam></OurTeam>
+          <About></About>
           <ContactUs></ContactUs>
           <Footer></Footer>
         </div>
