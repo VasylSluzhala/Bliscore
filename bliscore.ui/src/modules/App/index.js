@@ -12,6 +12,7 @@ import OurTeam from '../OurTeam';
 import Footer from '../Footer';
 import Services from '../Services';
 import About from '../About';
+import Testimonials from '../Testimonials';
 import reducers from './reducers';
 
 const firebaseConfig = {
@@ -38,6 +39,7 @@ export default class App extends Component {
           <Services></Services>
           <OurTeam></OurTeam>
           <About></About>
+          <Testimonials></Testimonials>
           <ContactUs></ContactUs>
           <Footer></Footer>
         </div>
