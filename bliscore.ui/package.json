@@ -6,9 +6,10 @@
     "firebase": "^5.6.0",
     "modern-scripts": "2.2.0",
     "node-sass": "^4.9.4",
-    "react": "^16.6.0",
+    "react": "^16.6.3",
     "react-anchor-link-smooth-scroll": "^1.0.11",
-    "react-dom": "^16.6.0",
+    "react-bootstrap": "^0.32.4",
+    "react-dom": "^16.6.3",
     "react-particles-js": "^2.4.0",
     "redux-promise": "^0.6.0",
     "redux-thunk": "^2.3.0"
