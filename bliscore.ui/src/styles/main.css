@@ -1037,8 +1037,14 @@ button.open-video-modal {
   .reviews ol.carousel-indicators {
     bottom: -30px;
     z-index: 0 !important; }
-  .reviews span.author-name {
-    font-size: 1.3em; }
+  .reviews div.author-name {
+    font-size: 1.3em; 
+    margin-bottom: 20px;
+  }
+    .reviews div.author-post {
+      font-size: 1.1em;
+     margin-bottom: 20px;
+    }
 
 /*--------- What our client saying CSS END -----------*/
 /*---------------------------- 9. CTA (Our sale starts...) CSS --------------------------*/
