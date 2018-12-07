@@ -95,12 +95,15 @@
     display: none; }
 
   .banner-text {
-    padding-top: 30px; }
+    padding-top: 30px; 
+  }
     .banner-text h1 {
       font-size: 3.3em;
-      line-height: 47px; }
+      line-height: 47px; 
+    }
       .banner-text h1 img {
-        width: 40px; }
+        width: 40px; 
+      }
 
   .banner {
     min-height: 100vh; }

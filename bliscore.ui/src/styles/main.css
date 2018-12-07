@@ -517,15 +517,14 @@ hr {
 
 /*---------- timer -----------*/
 .timer-box {
-  margin: 0px auto;
-  width: 87%;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
-  padding: 40px  20px;
   border-radius: 6px;
-  background-color: rgba(0, 0, 0, 0.5); }
+  background-color: rgba(0, 0, 0, 0.5); 
+}
   .timer-box h2 {
     position: relative;
-    font-size: 2em; }
+    font-size: 2em; 
+  }
     .timer-box h2:after {
       content: "";
       position: absolute;
@@ -536,31 +535,37 @@ hr {
       bottom: -12px;
       margin: 0 auto;
       background: #FED382;
-      border-radius: 47px; }
+      border-radius: 47px; 
+    }
 
 .timer-text {
   font-size: 1.1em;
-  font-weight: bold; }
+  font-weight: bold; 
+}
   .timer-text i {
     border: 2px solid #FED382;
     border-radius: 50px;
-    margin: 0 10px; }
+    margin: 0 10px; 
+  }
 
 div.timer {
   display: flex;
   justify-content: space-between;
-  margin: 40px 0  30px  0; }
+  margin: 40px 0  30px  0; 
+}
   div.timer div {
     font-size: 3em;
     text-align: center;
     width: 25%;
     display: inline-block;
-    line-height: 1.2; }
+    line-height: 1.2; 
+  }
   div.timer span {
     font-size: 0.3em;
     display: block;
     color: #34bbff;
-    font-weight: 700; }
+    font-weight: 700; 
+  }
 
 /*---------- Progress bar -----------*/
 .progress {
