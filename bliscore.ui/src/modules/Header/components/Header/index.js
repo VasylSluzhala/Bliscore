@@ -42,11 +42,11 @@ class Header extends Component {
            </div>
            <div id="navbarCollapse" className="collapse navbar-collapse ">
               <ul className="nav navbar-nav navbar-right " id="nav_bar">
-                 <li><AnchorLink href="#about">About Cryptency</AnchorLink></li>
-                 <li><AnchorLink href="#team">Team</AnchorLink></li>
+                 <li><AnchorLink href="#home">Home</AnchorLink></li>
                  <li><AnchorLink href="#service">Services</AnchorLink></li>
-                 <li><AnchorLink href="#roadmap">roadmap</AnchorLink></li>
-                 <li><AnchorLink href="#faq-section">Faq</AnchorLink></li>
+                 <li><AnchorLink href="#portfolio">Projects</AnchorLink></li>
+                 <li><AnchorLink href="#testimonials">Testimonials</AnchorLink></li>
+                 <li><AnchorLink href="#team">Team</AnchorLink></li>
                  <li><AnchorLink href="#contact">Contact</AnchorLink></li>
                  <li className="sidebar-btn"><a href="#white-paper" className="menu-btn">White Paper</a></li>
               </ul>
