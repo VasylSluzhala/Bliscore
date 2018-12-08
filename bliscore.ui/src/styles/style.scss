@@ -546,11 +546,8 @@ background-color: transparent ;
 
 /*---------- timer -----------*/
 .timer-box {
-    margin: 0px auto;
-    width: 87%;
     @extend .dark-template-light-bg;
     box-shadow: 0 0 12px rgba(0,0,0,.1);
-    padding:40px  20px;
     border-radius: 6px;
     background-color:rgba(0,0,0,0.5);
     h2{
