@@ -16,7 +16,7 @@ class Testimonials extends React.Component {
 
     render() {
         return (
-            <section className="burger dark-template-bg" id="reviews">
+            <section className="burger dark-template-bg" id="testimonials">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12 reviews">
