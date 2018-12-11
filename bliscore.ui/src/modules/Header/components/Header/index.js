@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
-import Logo from './img/Logo200-min.png';
+import Logo from './img/bliscore.png';
 
 class Header extends Component {
 
@@ -38,7 +38,7 @@ class Header extends Component {
                  <span className="icon-bar mid"></span>
                  <span className="icon-bar btm"></span>
               </button>
-              <a href="#hero" className="site-logo navbar-brand"><img src={Logo} alt="" className="img-responsive"/></a>
+              <a href="#hero" className="site-logo navbar-brand"><img src={Logo} alt="" width="150" className="img-responsive"/></a>
            </div>
            <div id="navbarCollapse" className="collapse navbar-collapse ">
               <ul className="nav navbar-nav navbar-right " id="nav_bar">
