@@ -35,17 +35,19 @@ export default class App extends Component {
   render() {
     return (
       <Provider store={createStoreWithMiddleware(reducers)}>
-        <div>
-          <Header></Header>
-          <Title></Title>
-          <Services></Services>
-          <ProjectList></ProjectList>
-          <Testimonials></Testimonials>
-          <About></About>
-          <OurTeam></OurTeam>
-          <ContactUs></ContactUs>
-          <Footer></Footer>
-        </div>
+        <Router>
+          <div>
+            <Header></Header>
+            <Title></Title>
+            <Services></Services>
+            <ProjectList></ProjectList>
+            <Testimonials></Testimonials>
+            <About></About>
+            <OurTeam></OurTeam>
+            <ContactUs></ContactUs>
+            <Footer></Footer>
+          </div>
+        </Router>
       </Provider>
     );
   }
