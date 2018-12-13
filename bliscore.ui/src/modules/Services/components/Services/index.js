@@ -20,15 +20,15 @@ class Services extends Component {
                            <img src="images/investment.svg" className="img-responsive" alt="cryptency"/>
                            <span>Web Development</span>
                         </div>
-                        <div className="service-box wow fadeInUp" data-wow-delay=".4s" data-wow-duration=".4s">
+                        <div className="service-box wow fadeInUp" data-wow-delay=".4s" data-wow-duration=".35s">
                            <img src="images/digital-cash.svg" className="img-responsive" alt="cryptency"/>
                            <span>UI/UX Design</span>
                         </div>
-                        <div className="service-box wow fadeInUp" data-wow-delay=".5s" data-wow-duration=".5s">
+                        <div className="service-box wow fadeInUp" data-wow-delay=".5s" data-wow-duration=".4s">
                            <img src="images/fast-transaction.svg" className="img-responsive" alt="cryptency"/>
                            <span>Dedicated Team</span>
                         </div>
-                        <div className="service-box wow fadeInUp" data-wow-delay=".6s" data-wow-duration=".6s">
+                        <div className="service-box wow fadeInUp" data-wow-delay=".6s" data-wow-duration=".45s">
                            <img src="images/bitcoin-shopping.svg" className="img-responsive" alt="cryptency"/>
                            <span>QA</span>
                         </div>
