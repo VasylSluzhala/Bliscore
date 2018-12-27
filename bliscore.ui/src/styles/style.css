@@ -812,7 +812,8 @@ button.open-video-modal {
       right: 0;
       margin: 0 auto;
       transition: all ease 0.3s; }
-  .services-list img {
+  .services-list svg {
+    height: 50px;
     width: 50px;
     margin: 0 auto; }
   .services-list span {
@@ -882,6 +883,8 @@ button.open-video-modal {
       display: inline-block; }
       .our-team .icon li a {
         display: block;
+        padding-left: 7px;
+        padding-top: 5px;
         width: 30px;
         height: 30px;
         line-height: 25px;
@@ -1169,11 +1172,11 @@ button.open-video-modal {
 ul.social {
   margin: 0; }
   ul.social li {
-    display: inline-block; }
+    display: inline-block;
+    margin-right: 15px; }
   ul.social a {
     color: #fff;
-    font-size: 1.9em;
-    margin-right: 15px; }
+    font-size: 1.9em; }
     ul.social a:hover {
       color: #0055ff; }
 
@@ -1297,10 +1300,11 @@ span.circular-at {
 ul.social {
   margin: 0; }
   ul.social li {
-    display: inline-block; }
+    display: inline-block; 
+    margin-right: 15px;
+  }
   ul.social a {
     font-size: 1.9em;
-    margin-right: 15px;
     color: #34bbff; }
     ul.social a:hover {
       color: #0055ff; }

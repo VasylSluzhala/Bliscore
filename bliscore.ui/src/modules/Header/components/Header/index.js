@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
-import { Nav,NavItem,Navbar,MenuItem,NavDropdown } from 'react-bootstrap';
-import calssNames from 'classnames';
+import { Nav,Navbar } from 'react-bootstrap';
 
 import Logo from './img/bliscore.png';
 

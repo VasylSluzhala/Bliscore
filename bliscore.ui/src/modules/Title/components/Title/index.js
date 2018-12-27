@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Particles from 'react-particles-js';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 class Title extends Component {
   constructor() {
@@ -26,8 +27,7 @@ class Title extends Component {
                     <p className="big-pera">Developing great bussiness solutions on web</p>
                   </div>
                   <div className="mt3 banner-btn-group wow fadeInUp" data-wow-delay=".4s" data-wow-duration="1s">
-                    <a href="#white-paper" className="redirect-btn btn-alpha"> LEARN MORE </a>
-                    <a href="#white-paper" className="redirect-btn btn-alpha"> OUR WORKS </a>
+                    <AnchorLink href="#portfolio" className="redirect-btn btn-alpha">OUR WORKS</AnchorLink>
                   </div>
                 </div>
               </div>

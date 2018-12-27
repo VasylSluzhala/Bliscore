@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class Services extends Component {
     render() {
@@ -17,19 +18,19 @@ class Services extends Component {
                   <div className="col-lg-8 col-sm-12 col-lg-offset-2">
                      <div className="services-list">
                         <div className="service-box wow fadeInUp" data-wow-delay=".3s" data-wow-duration=".3s">
-                           <img src="images/investment.svg" className="img-responsive" alt="cryptency"/>
+                           <FontAwesomeIcon icon="code" size="2x" className="img-responsive"/>
                            <span>Web Development</span>
                         </div>
                         <div className="service-box wow fadeInUp" data-wow-delay=".4s" data-wow-duration=".35s">
-                           <img src="images/digital-cash.svg" className="img-responsive" alt="cryptency"/>
+                           <FontAwesomeIcon icon="laptop" size="2x" className="img-responsive"/>
                            <span>UI/UX Design</span>
                         </div>
                         <div className="service-box wow fadeInUp" data-wow-delay=".5s" data-wow-duration=".4s">
-                           <img src="images/fast-transaction.svg" className="img-responsive" alt="cryptency"/>
+                           <FontAwesomeIcon icon="users" size="2x" className="img-responsive"/>
                            <span>Dedicated Team</span>
                         </div>
                         <div className="service-box wow fadeInUp" data-wow-delay=".6s" data-wow-duration=".45s">
-                           <img src="images/bitcoin-shopping.svg" className="img-responsive" alt="cryptency"/>
+                           <FontAwesomeIcon icon="rocket" size="2x" className="img-responsive"/>
                            <span>QA</span>
                         </div>
                      </div>

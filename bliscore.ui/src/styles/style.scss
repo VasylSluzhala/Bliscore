@@ -1316,11 +1316,11 @@ ul.social{
     margin: 0;
     li{
             display: inline-block;
+            margin-right: 15px;
     }
     a{
         color: #fff;    
     font-size: 1.9em;
-    margin-right: 15px;
         &:hover{
     color: $templateClr2;
         }
@@ -1463,10 +1463,10 @@ ul.social{
     margin: 0;
     li{
          display: inline-block;
+         margin-right: 15px;
     }
     a{
     font-size: 1.9em;
-    margin-right: 15px;
     color: $templateClr;
         &:hover{
     color: $templateClr2;

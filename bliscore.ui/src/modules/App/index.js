@@ -5,6 +5,10 @@ import ReduxPromise from 'redux-promise';
 import { BrowserRouter as Router } from 'react-router-dom';
 //import thunk from 'redux-thunk'
 import firebase from 'firebase';
+//fontawesome
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { fas } from '@fortawesome/free-solid-svg-icons';
 
 import Header from '../Header';
 import ContactUs from '../ContactUs';
@@ -25,8 +29,8 @@ const firebaseConfig = {
   storageBucket: "bliscore-50af0.appspot.com",
   messagingSenderId: "1018595030217"
 }
-
 firebase.initializeApp(firebaseConfig);
+library.add(fab, fas);
 
 const createStoreWithMiddleware = applyMiddleware(ReduxPromise)(createStore);
 

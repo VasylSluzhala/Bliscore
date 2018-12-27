@@ -1,4 +1,5 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export function Item(props) {
     const delay = 0.1*props.Index + 0.2;
@@ -10,9 +11,8 @@ export function Item(props) {
                     <h3 className="title">{props.Name}</h3>
                     <span className="post">{props.Post}</span>
                     <ul className="icon">
-                        <li><a href="javascript:void(0);"><i className="fab fa-facebook-f"></i></a></li>
-                        <li><a href="javascript:void(0);"><i className="fab fa-twitter"></i></a></li>
-                        <li><a href="javascript:void(0);"><i className="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="javascript:void(0);"><FontAwesomeIcon icon={["fab","facebook-f"]} size="lg" className="img-responsive"/></a></li>
+                        <li><a href="javascript:void(0);"><FontAwesomeIcon icon={["fab","linkedin-in"]} size="lg" className="img-responsive"/></a></li>
                     </ul>
                 </div>
             </div>
