@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "classnames": "^2.2.6",
     "firebase": "^5.6.0",
     "modern-scripts": "2.2.0",
     "node-sass": "^4.9.4",
