@@ -1862,3 +1862,12 @@ ul.template-list li {
     color: #fff; } }
 
 /*# sourceMappingURL=main.css.map */
+
+.project-tile-header {
+  height: 60px;
+  margin-bottom:20px;
+}
+
+.show-more-btn {
+  margin-top: 20px;
+}
