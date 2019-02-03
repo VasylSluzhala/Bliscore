@@ -22,6 +22,10 @@ class ProjectList extends React.Component {
       {
          Name: "Recording Service",
          Url: require("../ProjectList/img/RecordingAndSendingService/WeeklyReview-min.png")
+      },
+      {
+         Name: "Call Management Solution",
+         Url: require("../ProjectList/img/CallManagementSolution/Home-min.png")
       }
    ];
 

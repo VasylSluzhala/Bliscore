@@ -489,7 +489,6 @@ hr {
   min-height: 769px;
   overflow: hidden;
   position: relative;
-  background-image: url(../images/banner.jpg);
   background-position: 20px;
   background-size: cover; }
 
@@ -1870,4 +1869,10 @@ ul.template-list li {
 
 .show-more-btn {
   margin-top: 20px;
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
