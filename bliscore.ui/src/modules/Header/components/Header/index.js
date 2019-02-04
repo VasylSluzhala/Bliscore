@@ -35,7 +35,7 @@ class Header extends Component {
    render() {
 
      return (  
-       <Navbar bsStyle="none" className={"wow fadeInDown " + (this.isTop?"":"sticky-header") } data-wow-delay=".2s" data-wow-duration="1s" style={{background:"#1b1b1d"}}>
+       <Navbar bsStyle="none" className={"wow fadeInDown " + (this.isTop?"":"sticky-header") } data-wow-delay=".2s" data-wow-duration="1s" style={{background:"black"}}>
            <Navbar.Header>
              <Navbar.Brand>
                <a href="#hero" className="site-logo navbar-brand"><img src={Logo} alt="" width="150" className="img-responsive" /></a>
