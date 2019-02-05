@@ -25,8 +25,9 @@ class OurTeam extends Component {
       <section className="burger team dark-template-light-bg" id="team">
         <div className="container">
           <div className="row">
-            <div className="col-lg-3">
-              <h2 className="wow fadeInUp mb5" data-wow-delay=".2s" data-wow-duration="1s">Meet Our Team</h2>
+            <div class="col-lg-6 col-lg-offset-3  text-center mb5 wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1s">
+              <h2>Our Team</h2>
+              <p className="big-pera">People who <strong className="template-color">care.</strong></p>
             </div>
             <div className="col-lg-9">
               <div className="row">

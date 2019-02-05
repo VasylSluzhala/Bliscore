@@ -16,7 +16,7 @@ import Title from '../Title';
 import OurTeam from '../OurTeam';
 import Footer from '../Footer';
 import Services from '../Services';
-import About from '../About';
+// import About from '../About';
 import Testimonials from '../Testimonials';
 import ProjectList from '../Portfolio';
 import reducers from './reducers';
@@ -46,7 +46,7 @@ export default class App extends Component {
             <Services></Services>
             <ProjectList></ProjectList>
             <Testimonials></Testimonials>
-            <About></About>
+            {/* <About></About> */}
             <OurTeam></OurTeam>
             <ContactUs></ContactUs>
             <Footer></Footer>

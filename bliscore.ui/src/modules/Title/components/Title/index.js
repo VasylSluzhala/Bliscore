@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import ReactPlayer from 'react-player';
-import Particles from 'react-particles-js';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import earthVideo from './video/Rotation of The Planet Earth Slow.mp4';
 
