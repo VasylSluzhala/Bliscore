@@ -10,7 +10,7 @@ class Services extends Component {
                <div className="col-sm-12 col-lg-8 col-lg-offset-2 text-center">
                      <h2 className="wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1s">Services</h2>
                      <div className="wow fadeInUp" data-wow-delay=".5s" data-wow-duration=".5s">
-                     <p className="big-pera">We do things differently and provide key digital services.</p>
+                     <p className="big-pera">We do things <strong className="template-color">differently</strong> and provide key digital services.</p>
                      </div>
                   </div>
                </div>

@@ -136,7 +136,6 @@ a, button{
 }
 p {
     line-height:1.7;
-    margin:30px 0;
 }
 hr {
     border-top: 1px solid #242526;
@@ -382,7 +381,7 @@ hr {
 }
 .big-pera {
     font-size: 17px;
-    opacity: 0.6;
+    opacity: 0.9;
 }
 .skewed-light {
     position: relative;
@@ -917,7 +916,7 @@ button.open-video-modal {
     transform: scale(1);
     transition: all 1s ease 0s;
     opacity: 0.5;
-    border-radius:30px 60px 30px 60px;
+    border-radius:4px 4px 4px 4px;
   }
   &:hover img {
     transform: scale(1.2);
@@ -1100,7 +1099,7 @@ button.open-video-modal {
 }
 .reviews .media img {
     width: 160px;
-    border-radius: 30px 60px 30px 60px;
+    border-radius: 4px 4px 4px 4px;
 }
  .reviews .carousel-indicators li{
     border-color: $templateClr;

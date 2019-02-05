@@ -22,10 +22,6 @@ class ProjectList extends React.Component {
       {
          Name: "Recording Service",
          Url: require("../ProjectList/img/RecordingAndSendingService/WeeklyReview-min.png")
-      },
-      {
-         Name: "Call Management Solution",
-         Url: require("../ProjectList/img/CallManagementSolution/Home-min.png")
       }
    ];
 
@@ -50,6 +46,7 @@ class ProjectList extends React.Component {
                   <div class="row">
                      <div class="col-lg-6 col-lg-offset-3  text-center mb5 wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1s">
                         <h2>Projects</h2>
+                        <p className="big-pera">Our <strong className="template-color">success</strong> story.</p>
                      </div>
                   </div>
                   <div class="row align-item-end">
