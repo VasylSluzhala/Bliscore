@@ -11,7 +11,7 @@ class Title extends Component {
   render() {
     return (
       <section className="title-section" id="home">
-        <div className="banner burger  align-item-center parallax" style={{backgroundColor: 'black', paddingBottom: '40px'}}>
+        <div className="banner burger  align-item-center parallax" style={{backgroundColor: 'black', marginTop: '40px'}}>
           <ReactPlayer url={earthVideo}
           className="react-player"
           width="100%"
