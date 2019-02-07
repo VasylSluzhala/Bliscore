@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactPlayer from 'react-player';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import earthVideo from './video/Rotation of The Planet Earth.mp4';
+import earthVideo from './video/Rotation of The Planet Earth min.mp4';
 
 class Title extends Component {
   constructor() {
