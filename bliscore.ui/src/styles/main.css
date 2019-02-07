@@ -1882,3 +1882,8 @@ ul.template-list li {
 .title-section {
   background-color: black;
 }
+
+.image-ptoject-list {
+  display:inline !important;
+  padding:0 5px;
+}
