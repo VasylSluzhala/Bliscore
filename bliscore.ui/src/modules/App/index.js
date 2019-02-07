@@ -21,15 +21,15 @@ import Testimonials from '../Testimonials';
 import ProjectList from '../Portfolio';
 import reducers from './reducers';
 
-const firebaseConfig = {
-  apiKey: "AIzaSyBHYMm4kI1VCf8MWcVVmeGQvCgkyPaujfg",
-  authDomain: "bliscore-50af0.firebaseapp.com",
-  databaseURL: "https://bliscore-50af0.firebaseio.com",
-  projectId: "bliscore-50af0",
-  storageBucket: "bliscore-50af0.appspot.com",
-  messagingSenderId: "1018595030217"
-}
-firebase.initializeApp(firebaseConfig);
+// const firebaseConfig = {
+//   apiKey: "AIzaSyBHYMm4kI1VCf8MWcVVmeGQvCgkyPaujfg",
+//   authDomain: "bliscore-50af0.firebaseapp.com",
+//   databaseURL: "https://bliscore-50af0.firebaseio.com",
+//   projectId: "bliscore-50af0",
+//   storageBucket: "bliscore-50af0.appspot.com",
+//   messagingSenderId: "1018595030217"
+// }
+// firebase.initializeApp(firebaseConfig);
 library.add(fab, fas);
 
 const createStoreWithMiddleware = applyMiddleware(ReduxPromise)(createStore);
@@ -45,8 +45,9 @@ export default class App extends Component {
             <Title></Title>
             <Services></Services>
             <ProjectList></ProjectList>
+            <section id="project"></section> {/*For first scroll to project*/}
             <Testimonials></Testimonials>
-            {/* <About></About> */}
+            { /*<About></About> */}
             <OurTeam></OurTeam>
             <ContactUs></ContactUs>
             <Footer></Footer>

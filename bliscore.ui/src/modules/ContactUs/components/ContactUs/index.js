@@ -11,8 +11,8 @@ class ContactUs extends Component {
           <div className="row align-item-center">
             <div className="col-sm-7 col-sm-offset-1  ">
               <div className="contact-form">
-                <h2 className="text-center mb5 wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">Send a message </h2>
-                <form id="ajax-contact" method="post" action="contact-mail.php" className="wow fadeInUp" data-wow-delay=".7s" data-wow-duration=".7s">
+                <h2 className="text-center mb5 wow fadeInUp" data-wow-delay=".1s" data-wow-duration=".6s">Send a message </h2>
+                <form id="ajax-contact" method="post" action="contact-mail.php" className="wow fadeInUp" data-wow-delay=".4s" data-wow-duration=".8s">
                   <div id="form-messages" className="notification contact"></div>
                   <div className="row">
                     <div className="col-sm-6">
@@ -40,7 +40,7 @@ class ContactUs extends Component {
                 </form>
               </div>
             </div>
-            <div className="col-sm-4 col-sm-pull-1 wow fadeInUp" data-wow-delay=".9s" data-wow-duration=".9s">
+            <div className="col-sm-4 col-sm-pull-1 wow fadeInUp" data-wow-delay=".1s" data-wow-duration=".6s">
               <div className="contact-info">
                 <h3 className="text-center mb3 mt0">Contact us </h3>
                 <div className="contact-item">

@@ -11,7 +11,7 @@ class Title extends Component {
   render() {
     return (
       <section className="title-section" id="home">
-        <div className="banner burger  align-item-center parallax" style={{backgroundColor: 'black'}}>
+        <div className="banner burger  align-item-center parallax" style={{backgroundColor: 'black', paddingBottom: '40px'}}>
           <ReactPlayer url={earthVideo}
           className="react-player"
           width="100%"
@@ -23,7 +23,7 @@ class Title extends Component {
             <div className="row align-item-center mt6 text-center">
               <div className="col-sm-12">
                 <div className="banner-text">
-                  <h1 className="wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1s">Enterprise web development.<strong className="template-color">Net</strong></h1>
+                  <h1 className="wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1s">Enterprise web developm.<strong className="template-color">Net</strong></h1>
                   <div className="wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
                     <p className="big-pera">Clean great flex-made.</p>
                   </div>

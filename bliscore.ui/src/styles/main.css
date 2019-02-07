@@ -841,7 +841,8 @@ button.open-video-modal {
 .our-team {
   text-align: center;
   overflow: hidden;
-  position: relative; }
+  position: relative; 
+}
   .our-team img {
     width: 100%;
     height: auto;
@@ -919,6 +920,29 @@ button.open-video-modal {
     @media only screen and (min-width: 990px) {
       .our-team {
         margin-bottom: 30px; } }
+
+      .our-team-new{
+        text-align: center;
+        overflow: hidden;
+        position: relative;
+        margin-bottom:25px;
+      }
+      .our-team-new img {
+        width: 100%;
+        height: auto;
+        opacity: 0.8;
+        border-radius: 4px 4px 4px 4px; 
+      }
+      .our-team-new .title{
+        margin-top:15px;
+      }
+      .our-team-new .post{
+        font-size: 18px;
+      }
+
+      .joinus{
+        margin:20px 0 25px 0;
+      }
 /*-------- Team CSS End ---------*/
 /*---------------------------- 7.Roadmap -----------------------*/
 .roadmap {
@@ -1885,5 +1909,5 @@ ul.template-list li {
 
 .image-ptoject-list {
   display:inline !important;
-  padding:0 5px;
+  padding:0 8px;
 }

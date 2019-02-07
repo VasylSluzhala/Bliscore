@@ -11,7 +11,7 @@ class Footer extends Component {
               <a href="javascript:void(0);" className="">
                 <img src="images/logo-light.png" alt="" className="img-responsive mt2 footer-logo" /></a>
             </div>
-            <div className="col-sm-3 col-sm-offset-6 wow fadeInUp" data-wow-delay=".4s" data-wow-duration=".7s">
+            <div className="col-sm-3 col-sm-offset-6 wow fadeInUp" data-wow-delay=".1s" data-wow-duration=".6s">
               <h3>Social Media</h3>
               <ul className="social list-unstyled mt2">
                 <li><a href="javascript:void(0);"><FontAwesomeIcon icon={["fab","twitter"]} size="1x" className="img-responsive"/></a></li>
@@ -20,7 +20,7 @@ class Footer extends Component {
               </ul>
             </div>
             <div className="text-center col-sm-12 mb1">
-              <p className="copyright">All rights reserved &copy; 2018</p>
+              <p className="copyright">All rights reserved &copy; 2019</p>
             </div>
           </div>
           <div className="row">
