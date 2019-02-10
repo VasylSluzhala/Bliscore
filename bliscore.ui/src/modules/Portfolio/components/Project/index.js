@@ -12,14 +12,6 @@ class Project extends React.Component {
         this.project = null;
     }
 
-    componentDidMount() {
-        this.slider.slickPlay();
-    }
-
-    componentDidUpdate() {
-        this.slider.slickPlay();
-    }
-
     getProject(Id) {
         const project = _.find(this.props.projects, function (elem) {
             return elem.Id == Id;
@@ -57,7 +49,7 @@ class Project extends React.Component {
                             </div>
                         </div>
                         <div className="row align-item-center">
-                            <Slider ref={slider => (this.slider = slider)} className="col-sm-12 col-md-7 wow fadeIn" data-wow-delay=".5s" data-wow-duration="1s">
+                            <Slider {...settings} ref={slider => (this.slider = slider)} className="col-sm-12 col-md-7 wow fadeIn" data-wow-delay=".5s" data-wow-duration="1s">
                                 {this.renderImages()}
                             </Slider>
 
