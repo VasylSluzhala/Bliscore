@@ -94,16 +94,16 @@ class ProjectList extends React.Component {
       };
       return (
          <section id="portfolio">
-            <div class="burger dark-template-bg buy-token shapebg-right">
-               <div class="container">
-                  <div class="row">
-                     <div class="col-lg-6 col-lg-offset-3  text-center mb5 wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1s">
+            <div className="burger dark-template-bg buy-token shapebg-right">
+               <div className="container">
+                  <div className="row">
+                     <div className="col-lg-6 col-lg-offset-3  text-center mb5 wow fadeInUp" data-wow-delay=".1s" data-wow-duration=".5s">
                         <h2>Projects</h2>
                         <p className="big-pera">Our <strong className="template-color">success</strong> story.</p>
                      </div>
                   </div>
-                  <div class="row align-item-end">
-                     <Slider className="col-xs-12 wow fadeInUp" data-wow-delay=".5s" data-wow-duration=".5s" {...settings}>
+                  <div className="row align-item-end">
+                     <Slider className="col-xs-12 wow fadeInUp" data-wow-delay=".1s" data-wow-duration=".5s" {...settings}>
                         {this.renderTiles()}
                      </Slider>
                   </div>

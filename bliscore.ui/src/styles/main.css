@@ -510,7 +510,7 @@ hr {
     left: 0;
     width: 1.8em;
     height: .05em;
-    background-color: #FED382;
+    background-color:white;
     border-radius: 3em;
     right: 0;
     margin: 0 auto; }
@@ -1292,6 +1292,12 @@ ul.social {
   .notification.error:after {
     background-image: url(../images/warning.svg); }
 
+    .lwc-chat-button{
+      font-size: 14px !important;
+      font-family: Lato, "Open Sans", sans-serif !important;
+      padding: 4px 0 !important;
+    }  
+
 /*------- Contact-form CSS END -------*/
 /*----------------- 14. Footer --------------------*/
 .footer {
@@ -1901,10 +1907,16 @@ ul.template-list li {
   position: absolute;
   top: 0;
   left: 0;
+  margin-top:40px;
 }
 
 .title-section {
   background-color: black;
+}
+
+.dotnet-img {
+  width:90px !important;
+  margin-bottom: 4px;
 }
 
 .image-ptoject-list {

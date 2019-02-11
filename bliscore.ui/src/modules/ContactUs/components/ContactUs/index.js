@@ -12,7 +12,7 @@ class ContactUs extends Component {
             <div className="col-sm-7 col-sm-offset-1  ">
               <div className="contact-form">
                 <h2 className="text-center mb5 wow fadeInUp" data-wow-delay=".1s" data-wow-duration=".6s">Send a message </h2>
-                <form id="ajax-contact" method="post" action="contact-mail.php" className="wow fadeInUp" data-wow-delay=".4s" data-wow-duration=".8s">
+                <form id="ajax-contact" method="post" action="contact-mail.php" className="wow fadeInUp" data-wow-delay=".3s" data-wow-duration=".6s">
                   <div id="form-messages" className="notification contact"></div>
                   <div className="row">
                     <div className="col-sm-6">
@@ -40,12 +40,12 @@ class ContactUs extends Component {
                 </form>
               </div>
             </div>
-            <div className="col-sm-4 col-sm-pull-1 wow fadeInUp" data-wow-delay=".1s" data-wow-duration=".6s">
+            <div className="col-sm-4 col-sm-pull-1 wow fadeInUp" data-wow-delay=".1s" data-wow-duration=".5s">
               <div className="contact-info">
                 <h3 className="text-center mb3 mt0">Contact us </h3>
                 <div className="contact-item">
                   <img src={Phone} className="pull-left" width="55" />
-                        <span>+1234 234235423 </span>
+                  <span class="skype-button textonly"  data-color="#1a1a1c"	data-contact-id="sspoctukss"></span>
                 </div>
                 <div className="contact-item">
                 <img src={Mail} className="pull-left" width="55" />
@@ -59,6 +59,7 @@ class ContactUs extends Component {
             </div>
           </div>
         </div>
+        <div class="skype-chat" data-css-url="http://bliscore.com/styles/style.css"></div>
       </section>
     );
   }
