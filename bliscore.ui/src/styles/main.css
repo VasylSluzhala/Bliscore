@@ -1292,6 +1292,12 @@ ul.social {
   .notification.error:after {
     background-image: url(../images/warning.svg); }
 
+    .lwc-chat-button{
+      font-size: 14px !important;
+      font-family: Lato, "Open Sans", sans-serif !important;
+      padding: 4px 0 !important;
+    }  
+
 /*------- Contact-form CSS END -------*/
 /*----------------- 14. Footer --------------------*/
 .footer {

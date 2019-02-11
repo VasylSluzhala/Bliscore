@@ -45,7 +45,7 @@ class ContactUs extends Component {
                 <h3 className="text-center mb3 mt0">Contact us </h3>
                 <div className="contact-item">
                   <img src={Phone} className="pull-left" width="55" />
-                        <span>+1234 234235423 </span>
+                  <span class="skype-button textonly"  data-color="#1a1a1c"	data-contact-id="sspoctukss"></span>
                 </div>
                 <div className="contact-item">
                 <img src={Mail} className="pull-left" width="55" />
@@ -59,6 +59,7 @@ class ContactUs extends Component {
             </div>
           </div>
         </div>
+        <div class="skype-chat" data-css-url="http://bliscore.com/styles/style.css"></div>
       </section>
     );
   }
