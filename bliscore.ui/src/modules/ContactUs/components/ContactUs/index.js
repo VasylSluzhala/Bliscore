@@ -36,17 +36,17 @@ class ContactUs extends Component {
                     <textarea id="message" className="form-control" name="message" rows="5" required="" placeholder=""></textarea>
                     <label htmlFor="message">Message :</label>
                   </div>
-                  <button type="submit" className="btn-white"> SUBMIT</button>
+                  <button type="submit" className="btn-alpha"> SUBMIT</button>
                 </form>
               </div>
             </div>
             <div className="col-sm-4 col-sm-pull-1 wow fadeInUp" data-wow-delay=".1s" data-wow-duration=".5s">
               <div className="contact-info">
-                <h3 className="text-center mb3 mt0">Contact us </h3>
+                {/* <h3 className="text-center mb3 mt0">Contact us </h3>
                 <div className="contact-item">
                   <img src={Phone} className="pull-left" width="55" />
                   <span class="skype-button textonly"  data-color="#1a1a1c"	data-contact-id="sspoctukss"></span>
-                </div>
+                </div> */}
                 <div className="contact-item">
                 <img src={Mail} className="pull-left" width="55" />
                         <span>info@bliscore.com</span>
@@ -59,7 +59,6 @@ class ContactUs extends Component {
             </div>
           </div>
         </div>
-        <div class="skype-chat" data-css-url="http://bliscore.com/styles/style.css"></div>
       </section>
     );
   }

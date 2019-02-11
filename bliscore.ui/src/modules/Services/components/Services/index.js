@@ -31,7 +31,7 @@ class Services extends Component {
                         </div>
                         <div className="service-box wow fadeInUp" data-wow-delay=".2s" data-wow-duration=".45s">
                            <FontAwesomeIcon icon="rocket" size="2x" className="img-responsive"/>
-                           <span>QA</span>
+                           <span>Quality Assurance</span>
                         </div>
                      </div>
                   </div>

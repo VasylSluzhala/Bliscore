@@ -510,7 +510,7 @@ hr {
     left: 0;
     width: 1.8em;
     height: .05em;
-    background-color:white;
+    background-color:white!important;
     border-radius: 3em;
     right: 0;
     margin: 0 auto; }
@@ -825,7 +825,8 @@ button.open-video-modal {
       left: 0;
       right: 0;
       margin: 0 auto;
-      transition: all ease 0.3s; }
+      transition: all ease 0.3s; 
+      background-color: #34bbff!important;}
   .services-list svg {
     height: 50px;
     width: 50px;
@@ -1195,7 +1196,7 @@ button.open-video-modal {
     transition: all 350ms cubic-bezier(0.285, 0.105, 0.465, 1.015);
     color: rgba(255, 255, 255, 0.8);
     font-size: 0.75em;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     text-transform: uppercase; }
 
 .contact-form input, .contact-form textarea {
@@ -1221,7 +1222,7 @@ ul.social {
   margin: 0; }
   ul.social li {
     display: inline-block;
-    margin-right: 15px; }
+    margin: 0 7.5px; }
   ul.social a {
     color: #fff;
     font-size: 1.9em;
@@ -1300,6 +1301,13 @@ ul.social {
 
 /*------- Contact-form CSS END -------*/
 /*----------------- 14. Footer --------------------*/
+
+#socialMedia{
+  float: none !important;
+  margin: auto!important;
+  text-align: center;
+  }
+  
 .footer {
   background-image: url(../images/services-bg.png);
   background-size: cover;
@@ -1356,7 +1364,7 @@ ul.social {
   margin: 0; }
   ul.social li {
     display: inline-block;
-    margin-right: 15px;
+    margin: 0 7.5px;
    }
   ul.social a {
     font-size: 1.9em;

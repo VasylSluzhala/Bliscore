@@ -368,7 +368,7 @@ hr {
 }
 
 .t-burger{
-    padding-top: 100px;
+    padding-top: 0px;
 }
 .b-burger{
     padding-bottom: 100px;
@@ -1298,12 +1298,12 @@ opacity: 0.8;
  @extend .dark-template-light-bg;
     padding: 15px;
     &:focus{
-        border-color: #FED382;
+        border-color: white;
     }
     &:focus + label, &:valid + label{
     top: -10px;
     left: 0;
-    color: #FED382;
+    color: white;
     }
 }
 #map {
