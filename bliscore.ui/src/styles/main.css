@@ -7,6 +7,10 @@
   font-weight: bold;
 }
 
+iframe[allow="microphone; camera;"]:not(.lwc-chat-frame){
+  display: none;
+}
+
 .dark-template-light-bg, .navbar.sticky-header, .timer-box, .card-accepted, .services-list div, .faq-icon img, .faq .panel, .contact-form input, .contact-form textarea, .about-special {
   background-color: #1d1e20;
   color: #fff; }
