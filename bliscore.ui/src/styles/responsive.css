@@ -22,7 +22,7 @@
 /*for mobile device (till rotate view) */
 @media (max-width: 767px) {
   .banner-btn-group a:last-child {
-    margin-left: 0px; }
+    margin-left: 10px; }
 
   .progress {
     width: 100%;
