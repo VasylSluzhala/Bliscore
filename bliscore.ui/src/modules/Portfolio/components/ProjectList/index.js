@@ -4,6 +4,7 @@ import { Route, Link } from 'react-router-dom';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { Carousel } from 'react-bootstrap';
 
 import Project from '../Project';
 import ProjectListItem from '../ProjectListItem';
@@ -14,7 +15,7 @@ class ProjectList extends React.Component {
       {
          Id: 1,
          Name: "Call Management Solution",
-         Url: require("../ProjectList/img/CallManagementSolution/Home-min.png"),
+         Url: require("../ProjectList/img/CallManagementSolution/General-min.jpg"),
          AllUrl: [
             require("../ProjectList/img/CallManagementSolution/Home-min.png"),
             require("../ProjectList/img/CallManagementSolution/CallDetails-min.png"),
@@ -32,7 +33,7 @@ class ProjectList extends React.Component {
       {
          Id: 2,
          Name: "Call Center",
-         Url: require("../ProjectList/img/CallCenter/AgentCallActive-min.png"),
+         Url: require("../ProjectList/img/CallCenter/General-min.jpg"),
          AllUrl: [
             require("../ProjectList/img/CallCenter/AgentCallActive-min.png"),
             require("../ProjectList/img/CallCenter/AgentCallEnded-min.png"),
@@ -47,7 +48,7 @@ class ProjectList extends React.Component {
       {
          Id: 3,
          Name: "Recording Service",
-         Url: require("../ProjectList/img/RecordingAndSendingService/WeeklyReview-min.png"),
+         Url: require("../ProjectList/img/RecordingAndSendingService/General-min.jpg"),
          AllUrl: [
             require("../ProjectList/img/RecordingAndSendingService/WeeklyReview-min.png"),
             require("../ProjectList/img/RecordingAndSendingService/WeeklyReview-min.png"),
@@ -94,7 +95,7 @@ class ProjectList extends React.Component {
       };
       return (
          <section id="portfolio">
-            <div className="burger dark-template-bg buy-token shapebg-right">
+            <div className="burger team dark-template-light-bg">
                <div className="container">
                   <div className="row">
                      <div className="col-lg-6 col-lg-offset-3  text-center mb5 wow fadeInUp" data-wow-delay=".1s" data-wow-duration=".5s">

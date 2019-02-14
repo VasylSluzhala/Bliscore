@@ -25,7 +25,7 @@ class Testimonials extends React.Component {
             FullName: "Alexandr Iakovlev",
             Post: "Project Manager",
             Text: "Team work with passion and never misses an opportunity for a challenge. Thank you and keep up the good work!",
-            Url: require("./img/img1-min.jpg")
+            Url: require("./img/alex.jpg")
         },
         {
             FullName: "Roman Yakovchuk",

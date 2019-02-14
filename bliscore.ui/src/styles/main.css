@@ -523,7 +523,6 @@ hr {
 .timer-box {
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
   border-radius: 6px;
-  background-color: rgba(0, 0, 0, 0.5); 
 }
   .timer-box h2 {
     position: relative;
@@ -538,7 +537,7 @@ hr {
       right: 0;
       bottom: -12px;
       margin: 0 auto;
-      background: #FED382;
+      background: white;
       border-radius: 47px; 
     }
 
@@ -1927,11 +1926,11 @@ ul.template-list li {
 }
 
 .dotnet-img {
-  width:90px !important;
-  margin-bottom: 4px;
+  width: 115px !important;
+  padding-bottom: 10px;
 }
 
 .image-ptoject-list {
   display:inline !important;
-  padding:0 8px;
+  padding:0 11px;
 }
