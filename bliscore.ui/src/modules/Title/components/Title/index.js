@@ -33,7 +33,7 @@ class Title extends Component {
                   {/* <strong className="template-color">.Net</strong> */}
                   <img src={dotnetImg} className='dotnet-img'></img></h1>
                   <div className="wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
-                    <p className="big-pera">Clean great flex-made.</p>
+                    <p className="big-pera"><span className="template-color">Enterprise</span> technologies. <span className="template-color">Flexible</span> approach.</p>
                   </div>
                   <div className="mt3 banner-btn-group wow fadeInUp" data-wow-delay=".4s" data-wow-duration="1s">
                     <AnchorLink href="#portfolio" className="redirect-btn btn-alpha">PORTFOLIO</AnchorLink>

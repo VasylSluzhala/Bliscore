@@ -58,7 +58,7 @@ class ContactUs extends Component {
             </div>
           </div>
         </div>
-        <div class="skype-chat" data-css-url="http://bliscore.com/styles/style.css"></div>
+        {/* <div class="skype-chat" data-css-url="http://bliscore.com/styles/style.css"></div> */}
       </section>
     );
   }
