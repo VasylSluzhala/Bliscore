@@ -550,18 +550,6 @@ background-color: transparent ;
     h2{
         position: relative;
         font-size: 2em;
-        &:after {
-            content: "";
-            position: absolute;
-            width: 50px;
-            height: 4px;
-            left: 0;
-            right: 0;
-            bottom: -12px;
-            margin: 0 auto;
-            background: #FED382;
-            border-radius: 47px;
-        }
     } 
 }
  .timer-text {
@@ -1096,10 +1084,7 @@ button.open-video-modal {
         opacity: 1 !important;
     }
 }
-.reviews .media img {
-    width: 160px;
-    border-radius: 4px 4px 4px 4px;
-}
+
  .reviews .carousel-indicators li{
     border-color: $templateClr;
  }

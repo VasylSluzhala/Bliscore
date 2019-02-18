@@ -126,8 +126,9 @@
 
 }
 .timer-box{
-	    margin-top: 30px;
-	        font-size: 11px;
+		margin-top: 30px;
+		padding: 0 15px;
+		font-size: 11px;
 }
 .timer-box, .benifit-box, .services-list div{
 	width:100%;
@@ -442,6 +443,10 @@
 	.card-accepted{
 		    font-size: .75em;
 	}
+
+	.timer-box{
+		padding: 0 20px;
+	}
 }
 @media  ( max-width: 1024px){
 	body{
@@ -460,5 +465,11 @@
 	}
 	.banner-text{
 		color: #fff;
+	}
+}
+
+@media  ( min-width: 1024px){
+	.timer-box{
+		padding: 0 20px;
 	}
 }

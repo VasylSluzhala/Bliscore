@@ -44,11 +44,13 @@ class ContactUs extends Component {
               <div className="contact-info">
                 <div className="contact-item">
                   <img src={Phone} className="pull-left" width="55" />
-                  <span class="skype-button textonly"  data-color="#1a1a1c"	data-contact-id="sspoctukss"></span>
+                  <span><a href="skype:info@bliscore.com">Skype: info@bliscore.com</a></span>
                 </div> 
                 <div className="contact-item">
                 <img src={Mail} className="pull-left" width="55" />
-                        <span>info@bliscore.com</span>
+                <span>
+                  <a href="mailto:info@bliscore.com" target="_blank" rel="noopener">info@bliscore.com</a>
+                </span>
                 </div>
                 <div className="contact-item">
                   <img src={Location} className="pull-left" width="55" />
@@ -58,7 +60,6 @@ class ContactUs extends Component {
             </div>
           </div>
         </div>
-        {/* <div class="skype-chat" data-css-url="http://bliscore.com/styles/style.css"></div> */}
       </section>
     );
   }

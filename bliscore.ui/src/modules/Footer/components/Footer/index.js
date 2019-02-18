@@ -7,10 +7,6 @@ class Footer extends Component {
       <footer className="footer t-burger dark-template-bg">
         <div className="container">
           <div className="row footer-links">
-            {/* <div className="col-sm-3 col-lg-3 wow fadeInUp" data-wow-delay=".4s" data-wow-duration=".4s">
-              <a href="javascript:void(0);" className="">
-                <img src="images/logo-light.png" alt="" className="img-responsive mt2 footer-logo" /></a>
-            </div> */}
             <div className="col-sm-3 col-sm-offset-6 wow fadeInUp" data-wow-delay=".1s" data-wow-duration=".4s" id="socialMedia">
               <h3>Social Media</h3>
               <ul className="social list-unstyled mt2">

@@ -7,10 +7,6 @@
   font-weight: bold;
 }
 
-iframe[allow="microphone; camera;"]:not(.lwc-chat-frame){
-  display: none;
-}
-
 .dark-template-light-bg, .navbar.sticky-header, .timer-box, .card-accepted, .services-list div, .faq-icon img, .faq .panel, .contact-form input, .contact-form textarea, .about-special {
   background-color: #1d1e20;
   color: #fff; }
@@ -529,18 +525,6 @@ hr {
     position: relative;
     font-size: 2em; 
   }
-    .timer-box h2:after {
-      content: "";
-      position: absolute;
-      width: 50px;
-      height: 4px;
-      left: 0;
-      right: 0;
-      bottom: -12px;
-      margin: 0 auto;
-      background: none;
-      border-radius: 47px; 
-    }
 
 .timer-text {
   font-size: 1.1em;
@@ -1040,9 +1024,11 @@ button.open-video-modal {
   .reviews a:hover {
     opacity: 1 !important; }
 
-.reviews .media img {
-  width: 160px;
-  border-radius: 4px 4px 4px 4px; }
+  .reviews .media img {
+  width: 160px;}
+
+  .slick-list img, .timer-box img,.reviews .media img {
+    border-radius: 4px 4px 4px 4px; }
 
 .reviews .carousel-indicators li {
   border-color: #34bbff; }
@@ -1242,6 +1228,9 @@ ul.social {
     padding-right: 20px; }
   .contact-item span {
     font-size: 1.1em; }
+    .contact-item a {
+      color: white;
+    }
 
 .contact-info {
   padding: 30px;
@@ -1612,7 +1601,8 @@ ul.template-list li {
 
   .timer-box {
     margin-top: 30px;
-    font-size: 11px; }
+    font-size: 11px;
+    padding: 0 20px; }
 
   .timer-box, .benifit-box, .services-list div {
     width: 100%; }
@@ -1908,7 +1898,6 @@ ul.template-list li {
 
 .project-tile-header {
   height: 60px;
-  margin-bottom:20px;
 }
 
 .show-more-btn {
@@ -1934,5 +1923,8 @@ ul.template-list li {
 
 .image-ptoject-list {
   display:inline !important;
-  padding:0 11px;
+}
+
+.project-description{
+  text-align: justify;
 }
