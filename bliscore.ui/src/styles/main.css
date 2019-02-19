@@ -1495,6 +1495,7 @@ ul.template-list li {
 /*for small mobile device (iphone-4) */
 @media (max-width: 480px) {
   .banner-btn-group a {
+    margin: 0 20px;
     padding: 0 17px !important; }
 
   .navbar-nav > li > a {
@@ -1575,6 +1576,17 @@ ul.template-list li {
   .card-accepted {
     font-size: .8em; }
 
+    #portfolio .row{
+      margin: 0;
+    }
+
+    #portfolio button.slick-next{
+      right: -10px;
+    }
+    #portfolio button.slick-prev{
+      left: -10px;
+    }
+
   h2 {
     font-size: 2em;
     line-height: 1.2; }
@@ -1594,7 +1606,8 @@ ul.template-list li {
       font-size: 3.3em;
       line-height: 47px; }
       .banner-text h1 img {
-        width: 40px; }
+        width: 84px!important;
+        margin-top: -33px; }
 
   .banner {
     min-height: 100vh; }
@@ -1697,10 +1710,10 @@ ul.template-list li {
   .navbar {
     padding: 0; }
 
-  .site-logo {
-    width: 200px;
-    padding: 10px; }
-
+    .site-logo {
+      width: 200px;
+      padding: 10px;}
+      
   .sticky-header .site-logo {
     width: 210px; }
 
@@ -1797,7 +1810,8 @@ ul.template-list li {
   .navbar-toggle {
     position: relative;
     display: inline-block;
-    width: 53px; }
+    width: 53px;
+    float: left; }
     .navbar-toggle .icon-bar {
       background-color: #fff;
       width: 100%;

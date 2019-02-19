@@ -41,7 +41,7 @@ class Testimonials extends React.Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12 reviews">
-                            <h2 className=" text-center mb5 wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1s">What our clients are saying !</h2>
+                            <h2 className=" text-center mb5 wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1s">What our clients are saying!</h2>
                             <i className="hudge-quote fa fa-quote-left wow fadeInUp" data-wow-delay=".4s" data-wow-duration=".4s"></i>
 
                             <Carousel>
