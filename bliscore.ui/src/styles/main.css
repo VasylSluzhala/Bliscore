@@ -1024,7 +1024,11 @@ button.open-video-modal {
   .reviews a:hover {
     opacity: 1 !important; }
 
+    .reviews .media{
+      outline: none;
+    }
   .reviews .media img {
+    margin: auto;
   width: 160px;}
 
   .slick-list img, .timer-box img,.reviews .media img {
@@ -1064,8 +1068,8 @@ button.open-video-modal {
 .reviews .carousel-indicators li.active {
   background-color: #34bbff; }
 
-.reviews {
-  position: relative; }
+  .reviews {
+    position: relative; }
   .reviews .media-left {
     padding-right: 40px; }
   .reviews i {
