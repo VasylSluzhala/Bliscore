@@ -3,6 +3,8 @@ import _ from 'lodash';
 // import { connect } from 'react-redux';
 // import { bindActionCreators } from 'redux';
 import { Carousel } from 'react-bootstrap';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 //import { getTestimonials } from '../../actions';
 

@@ -1030,6 +1030,34 @@ button.open-video-modal {
   .slick-list img, .timer-box img,.reviews .media img {
     border-radius: 4px 4px 4px 4px; }
 
+    /*Slick dots style*/
+    .slick-dots{
+      left:0;     
+      bottom: -35px;
+    }
+    .slick-dots li{
+      width: 10px;
+    }
+
+.slick-dots li button:before {
+    font-size: 10px;
+    line-height: 12px;
+    width: 10px;
+    height: 10px;
+    color: transparent;
+    border-radius: 10px;
+    border: 1px solid #34bbff;
+    opacity: 1;
+}
+    .slick-dots li.slick-active button:before{
+      opacity: 1;
+      color: #34bbff;
+      border: none;
+      font-size: 12px;
+      line-height: 13px;
+    }
+
+
 .reviews .carousel-indicators li {
   border-color: #34bbff; }
 
