@@ -1039,6 +1039,7 @@ button.open-video-modal {
       left:0;     
       bottom: -35px;
     }
+
     .slick-dots li{
       width: 10px;
     }
@@ -1548,6 +1549,11 @@ ul.template-list li {
     padding-bottom: 70px; } }
 /*for mobile device (till rotate view) */
 @media (max-width: 767px) {
+  /*Slick dots style*/
+  #project .slick-dots{ 
+    bottom: -10px;
+  }
+  
   .banner-btn-group a:last-child {
     margin-left: 10px; }
 
@@ -1999,9 +2005,9 @@ ul.template-list li {
 }
 
 .arrow-right {
-  left: -25px;
+  left: -15px;
 }
 
 .arrow-left {
-  right: -25px;
+  right: -15px;
 }

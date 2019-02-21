@@ -4,7 +4,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import LeftArrow from './LeftArrow';
-import RightArrow from './RighArrow';
+import RightArrow from './RightArrow';
 
 
 class Project extends React.Component {
@@ -39,8 +39,8 @@ class Project extends React.Component {
             autoplay: true,
             speed: 500,
             autoplaySpeed: 7000,
-            nextArrow: <RightArrow/>,
-            prevArrow: <LeftArrow/>
+            nextArrow: <LeftArrow/>,
+            prevArrow: <RightArrow/>
         };
         return (
             <section id="project">

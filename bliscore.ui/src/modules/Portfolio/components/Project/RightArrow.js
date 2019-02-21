@@ -3,7 +3,7 @@
 import * as React from "react";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
-export default function LeftArrow(props) {
+export default function RightArrow(props) {
   const { className, style, onClick } = props;
   return (
     <div

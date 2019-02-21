@@ -334,9 +334,11 @@
         text-align: center;
         margin: 80px 0; }
         .reviews .slick-slider{
-          width: 86%;
-          margin: 0 7%;
-          padding: 0; }
+          width: 92%;
+          margin: 0 4%;
+          padding: 0;
+          padding-right: 15px;
+          padding-left: 15px; }
 
 
     .reviews .fa-quote-left {

@@ -62,8 +62,8 @@ class Testimonials extends React.Component {
            speed: 500,
            slidesToShow: 1,
            slidesToScroll: 1,
-           prevArrow: <components.LeftArrow/>,
-           nextArrow: <components.RightArrow/>,
+           prevArrow: <components.RightArrow/>,
+           nextArrow: <components.LeftArrow/>,
         };
 
         return (
