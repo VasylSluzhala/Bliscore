@@ -1928,3 +1928,34 @@ ul.template-list li {
 .project-description{
   text-align: justify;
 }
+
+.arrow-button {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 30px;
+  height: 44px;
+  padding: 0;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  color: #8D8D8E;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: transparent;
+  transition: all 0.25s ease-in-out; 
+}
+
+.arrow-button:hover{
+  color: white;
+}
+
+.arrow-right {
+  left: -25px;
+}
+
+.arrow-left {
+  right: -25px;
+}

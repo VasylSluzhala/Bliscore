@@ -44,7 +44,7 @@ class OurTeam extends Component {
       <section className="burger team dark-template-light-bg" id="team">
         <div className="container">
           <div className="row">
-            <div class="col-lg-6 col-lg-offset-3  text-center mb5 wow fadeInUp" data-wow-delay=".1s" data-wow-duration=".5s">
+            <div className="col-lg-6 col-lg-offset-3  text-center mb5 wow fadeInUp" data-wow-delay=".1s" data-wow-duration=".5s">
               <h2>Our Team</h2>
               <p className="big-pera">People who <strong className="template-color">care.</strong></p>
             </div>
@@ -53,7 +53,7 @@ class OurTeam extends Component {
                 {this.renderTeam()}
               </div>
             </div>
-            <div class="col-lg-6 col-lg-offset-3  text-center wow fadeInUp">
+            <div className="col-lg-6 col-lg-offset-3  text-center wow fadeInUp">
               <h2 className="joinus">15+ talented people <br/>are working here</h2>
               <AnchorLink href="#contact" className="redirect-btn btn-alpha">JOIN US</AnchorLink>
             </div>

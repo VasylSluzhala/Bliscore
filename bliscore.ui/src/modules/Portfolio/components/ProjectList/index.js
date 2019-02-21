@@ -4,7 +4,8 @@ import { Route, Link } from 'react-router-dom';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { Carousel } from 'react-bootstrap';
+import LeftArrow from '../Project/LeftArrow';
+import RightArrow from '../Project/RighArrow';
 
 import Project from '../Project';
 import ProjectListItem from '../ProjectListItem';
@@ -73,6 +74,8 @@ class ProjectList extends React.Component {
          speed: 500,
          slidesToShow: 3,
          slidesToScroll: 1,
+         nextArrow: <RightArrow/>,
+         prevArrow: <LeftArrow/>,
          responsive: [
             {
               breakpoint: 1024,
