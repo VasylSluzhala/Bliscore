@@ -6,6 +6,8 @@ import _ from 'lodash';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import {components} from '../../../Portfolio';
+
 
 //import { getTestimonials } from '../../actions';
 
@@ -60,6 +62,8 @@ class Testimonials extends React.Component {
            speed: 500,
            slidesToShow: 1,
            slidesToScroll: 1,
+           prevArrow: <components.LeftArrow/>,
+           nextArrow: <components.RightArrow/>,
         };
 
         return (

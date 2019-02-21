@@ -27,7 +27,7 @@ class OurTeam extends Component {
     {
       Name: "Andriy",
       Url: require("./img/Andrew-min.png"),
-      Post: "CFO"
+      Post: "COO"
     }
   ];
 
@@ -54,7 +54,7 @@ class OurTeam extends Component {
               </div>
             </div>
             <div className="col-lg-6 col-lg-offset-3  text-center wow fadeInUp">
-              <h2 className="joinus">15+ talented people <br/>are working here</h2>
+              {/* <h2 className="joinus">15+ talented people <br/>are working here</h2> */}
               <AnchorLink href="#contact" className="redirect-btn btn-alpha">JOIN US</AnchorLink>
             </div>
           </div>

@@ -8,7 +8,7 @@ export function Item(props) {
             <div className="our-team-new">
                 <img src={props.Url} alt="team image" />
                 <h3 className="title">{props.Name}</h3>
-                <span className="post"><strong class="template-color">{props.Post}</strong></span>
+                {/* <span className="post"><strong class="template-color">{props.Post}</strong></span> */}
                 {/* <div className="team-content">
                     <h3 className="title">{props.Name}</h3>
                     <span className="post">{props.Post}</span>
