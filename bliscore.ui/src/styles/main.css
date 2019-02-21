@@ -1024,11 +1024,43 @@ button.open-video-modal {
   .reviews a:hover {
     opacity: 1 !important; }
 
+    .reviews .media{
+      outline: none;
+    }
   .reviews .media img {
+    margin: auto;
   width: 160px;}
 
   .slick-list img, .timer-box img,.reviews .media img {
     border-radius: 4px 4px 4px 4px; }
+
+    /*Slick dots style*/
+    .slick-dots{
+      left:0;     
+      bottom: -35px;
+    }
+    .slick-dots li{
+      width: 10px;
+    }
+
+.slick-dots li button:before {
+    font-size: 10px;
+    line-height: 12px;
+    width: 10px;
+    height: 10px;
+    color: transparent;
+    border-radius: 10px;
+    border: 1px solid #34bbff;
+    opacity: 1;
+}
+    .slick-dots li.slick-active button:before{
+      opacity: 1;
+      color: #34bbff;
+      border: none;
+      font-size: 12px;
+      line-height: 13px;
+    }
+
 
 .reviews .carousel-indicators li {
   border-color: #34bbff; }
@@ -1036,8 +1068,8 @@ button.open-video-modal {
 .reviews .carousel-indicators li.active {
   background-color: #34bbff; }
 
-.reviews {
-  position: relative; }
+  .reviews {
+    position: relative; }
   .reviews .media-left {
     padding-right: 40px; }
   .reviews i {
@@ -1495,6 +1527,7 @@ ul.template-list li {
 /*for small mobile device (iphone-4) */
 @media (max-width: 480px) {
   .banner-btn-group a {
+    margin: 0 20px;
     padding: 0 17px !important; }
 
   .navbar-nav > li > a {
@@ -1575,6 +1608,17 @@ ul.template-list li {
   .card-accepted {
     font-size: .8em; }
 
+    #portfolio .row{
+      margin: 0;
+    }
+
+    #portfolio button.slick-next{
+      right: -10px;
+    }
+    #portfolio button.slick-prev{
+      left: -10px;
+    }
+
   h2 {
     font-size: 2em;
     line-height: 1.2; }
@@ -1594,7 +1638,8 @@ ul.template-list li {
       font-size: 3.3em;
       line-height: 47px; }
       .banner-text h1 img {
-        width: 40px; }
+        width: 84px!important;
+        margin-top: -33px; }
 
   .banner {
     min-height: 100vh; }
@@ -1697,10 +1742,10 @@ ul.template-list li {
   .navbar {
     padding: 0; }
 
-  .site-logo {
-    width: 200px;
-    padding: 10px; }
-
+    .site-logo {
+      width: 200px;
+      padding: 10px;}
+      
   .sticky-header .site-logo {
     width: 210px; }
 
@@ -1797,7 +1842,8 @@ ul.template-list li {
   .navbar-toggle {
     position: relative;
     display: inline-block;
-    width: 53px; }
+    width: 53px;
+    float: left; }
     .navbar-toggle .icon-bar {
       background-color: #fff;
       width: 100%;

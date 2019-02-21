@@ -21,6 +21,7 @@ class Header extends Component {
   }
 
   handleScroll = () => {
+    debugger;
     if(window.scrollY > 0){
       if(this.isTop){
       this.isTop = false;

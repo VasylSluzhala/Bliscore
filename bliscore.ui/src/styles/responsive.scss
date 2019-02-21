@@ -244,10 +244,10 @@
 }
 .site-logo {
     width: 200px;
-    padding:  10px;
+	padding:  10px; 
 }
 .sticky-header .site-logo{
-    width: 210px;
+	width: 210px;
 }
 .faq-icon{
 	display:none;
@@ -352,7 +352,7 @@
 	.navbar-toggle{
 	position: relative;
     display: inline-block;
-    width: 53px;
+	width: 53px;;
 	.icon-bar {
 		background-color: #fff;
 	    width: 100%;
@@ -397,6 +397,11 @@
     	bottom: 0 !important;
     } 
 }
+
+.reviews .slick-slider{
+	width: 86%;
+	margin: 0 7%;
+	padding: 0; }
 .reviews .hudge-quote {
     position: absolute;
     font-size: 5em;
