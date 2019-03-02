@@ -27,8 +27,8 @@ namespace Bliscore.API.Controllers
                 {
                     //"schepanskiy1994@gmail.com",
                     //"roshom68@gmail.com",
-                    //"mu.1.chested.09@gmail.com",
-                    "info@bliscore.com"
+                    "mu.1.chested.09@gmail.com"
+                    //"info@bliscore.com"
                 };
 
                 MailHelper.Send(mailText, subject, mails);
@@ -68,7 +68,7 @@ namespace Bliscore.API.Controllers
         {
             try
             {
-                var mailText = $"From : {model.Name} {model.Email}" +
+                var mailText = $"From : {model.Name} {model.LastName} {model.Email}" +
                                Environment.NewLine +
                                $"{model.Message}";
                 var subject = "New contact us answer";
