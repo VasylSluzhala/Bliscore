@@ -2,7 +2,7 @@
 using MailKit.Net.Smtp;
 using MimeKit;
 
-namespace CompanyPage.Helpers
+namespace Bliscore.API.Helpers
 {
     public class MailHelper
     {

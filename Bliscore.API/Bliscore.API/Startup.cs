@@ -38,10 +38,12 @@ namespace Bliscore.API
             }
 
             app.UseCors(
-                options => options.WithOrigins("http://localhost:3000",
+                options => options/*.WithOrigins("http://localhost:3000",
                                         "http://bliscore.com",
                                         "https://localhost:3000",
-                                        "https://bliscore.com").AllowAnyMethod().AllowAnyHeader());
+                                        "https://bliscore.com")*/.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+
+            app.UseDeveloperExceptionPage();
 
             app.UseMvc();
         }
