@@ -34,7 +34,7 @@ class ContactUs extends Component {
       return;
     }
     var thisHolder = this;
-    axios.post("http://localhost:14931/api/mail", this.state.contact)
+    axios.post("http://bliscore-dev.eu-west-2.elasticbeanstalk.com/api/mail", this.state.contact)
     .then(function(a){
       thisHolder.setState({contact: {...thisHolder.state.defaultContact}});
       thisHolder.notifySuccess();
